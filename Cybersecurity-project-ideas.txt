@@ -1,0 +1,29 @@
+1. Build a Mini SOC (Blue Team)
+  Spin up a home lab with Windows + Linux VMs. Forward logs into a SIEM(Wazuh/Splunk). Create detections for brute force, PowerShell abuse, and privilege escalation.
+  Document your detection logic.
+
+2. Threat Hunt with MITRE Mapping(threat Hunting). Use log data and hunt for techniques from the MITRE ATT&CT framework.
+
+3. Phishing Campaign Simulation (Security Awareness/ Red Team)
+  Use a phishing simulation platform in a controlled lab. Measure click rates, credentials submissions, and build a remediation plan.
+
+4. Web App Pentest on a Vulnerable App (Offensive Security)
+  Deploy OWASP Juice Shop. Find auth bypass, IDOR, XSS, and SQL. Write a real pentest-style report with severity ratings and remediation steps.
+
+5. Malware Traffic Analysis(DFIRR)
+  Analyze a PCAP in Wireshark. Identify C2 traffic, DNS, tunneling beaconing intervals. Write a timeline of compromise.
+
+6. Active Directory Attack and Defense(Identity Security)
+  Set up an AD lab. Execute Kerberoasting and Pass-the-Hash Attack.
+
+7. Cloud Misconfiguration Audit (Cloud Security)
+  Deploy a misconfigured AWS environment. Identify exposed S3 buckets, IAM privilege escalation paths, and overly permissive security groups. Fix them and document the impact. 
+
+8. Incident Response playbook (IR Engineering)
+  Create a full ransomware response playbook: detection, containment, eradication, recovery, lessons learned. Map actions to NIST phases.
+
+9. Builds a Password Cracking Rig (Offensive + Defensive Insight)
+  Use Hashcut in a lab. Compare password complexity vs length. Demonstrate why reuse is catastrophic. Turn findings into an awareness presentation.
+
+10. Detection Engineering Project (Advanced Blue Team)
+  Write custom Sigma rules. Convert them to your SIEM query Language. Test against simulated attacker behavior and tune for false positives.
